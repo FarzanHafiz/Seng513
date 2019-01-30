@@ -43,6 +43,7 @@ body {
 
 #homeBody {
     background-image: url("media/Old Trafford.jpg");
+    background-size: 100%;
 }
 
 #squadImage {
