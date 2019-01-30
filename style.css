@@ -40,3 +40,12 @@ a {
 body {
     margin: 0;
   }
+
+#homeBody {
+    background-image: url("media/Old Trafford.jpg");
+}
+
+#squadImage {
+    position: relative;
+    left: 10%;
+}
