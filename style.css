@@ -50,3 +50,7 @@ body {
     position: relative;
     left: 10%;
 }
+
+#squadBody {
+    background-color: tan;
+}
