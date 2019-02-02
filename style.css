@@ -23,7 +23,7 @@ li a {
   }
 
 li a:hover {
-    background-color: #FF5A5F;
+    background-color: crimson;
     color: white;
   }
 
@@ -43,7 +43,8 @@ body {
 
 #homeBody {
     background-image: url("media/Old Trafford.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #squadImage {
@@ -53,4 +54,26 @@ body {
 
 #squadBody {
     background-color: tan;
+}
+
+#honoursImage {
+    position: relative;
+    width: fit-content;
+    height: 50%;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: burlywood;
 }
