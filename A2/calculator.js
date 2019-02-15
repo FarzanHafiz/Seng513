@@ -15,6 +15,11 @@ function equal() {
     }   
 }
 
+function backSpace() {
+    var exp = document.form.display.value;
+    document.form.display.value = exp.substring(0, exp.length - 1);
+}
+
 function allClear() {
     document.form.display.value = "";
 }
