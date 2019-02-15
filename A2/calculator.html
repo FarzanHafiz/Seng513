@@ -8,12 +8,11 @@
     <body>
         <div class="calculator">
             <form name="form">
-                <input class="display" name="display">
+                <input class="display" name="display" disabled>
             </form>
             <table>
                 <tr>
-                    <td><input class="buttons" type="button" value="C"></td>
-                    <td><input class="buttons" type="button" value=""></td>
+                    <td colspan="2"><input class="buttons" style="width:76px" type="button" value="AC" onclick="allClear()"></td>
                     <td><input class="buttons" type="button" value="(" onclick="input(0)"></td>
                     <td><input class="buttons" type="button" value=")" onclick="input(0)"></td>
                 </tr>
@@ -38,7 +37,7 @@
                 <tr>
                     <td><input class="buttons" type="button" value="0" onclick="input(0)"></td>
                     <td><input class="buttons" type="button" value="." onclick="input('.')"></td>
-                    <td><input class="buttons" type="button" value="="></td>
+                    <td><input class="buttons" type="button" value="=" onclick="equal()"></td>
                     <td><input class="buttons" type="button" value="+" onclick="input('+')"></td>
                 </tr>
             </table>
