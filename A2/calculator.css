@@ -15,8 +15,13 @@
     width: 35px;
     height: 40px;
     margin: 2px;
-    cursor: crosshair;
+    cursor: pointer;
 }
+
+/* #keys {
+    width: 600px;
+} */
+
 .display {
     margin: 5px;
     width: 143px;
