@@ -8,25 +8,35 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background: #b17e6e;
+    background: midnightblue;
+    width: 600px;
+    height: 350px;
 }
 
 .buttons {
-    width: 35px;
+    width: 143px;
     height: 40px;
     margin: 2px;
     cursor: pointer;
+    background-color: thistle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
 }
 
-/* #keys {
+#keys {
     width: 600px;
-} */
+}
 
 .display {
     margin: 5px;
     width: 143px;
     padding: 5px;
-    font-size: large;
+    font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
+    width: 575px;
+}
+
+td {
+    height: 54px;
 }
